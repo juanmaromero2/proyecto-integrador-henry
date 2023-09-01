@@ -1,4 +1,4 @@
-import SearchBar from "./SearchBar.jsx";
+import SearchBar from "../SearchBar/SearchBar.jsx";
 import { Link } from "react-router-dom";
 
 function Nav({onSearch}) {
@@ -9,6 +9,9 @@ function Nav({onSearch}) {
             </button>
             <button>
                 <Link to = "/home">Home</Link>
+            </button>
+            <button>
+                <Link to = "/favorites">Favorites</Link>
             </button>
             <SearchBar onSearch={onSearch} />
         </div>

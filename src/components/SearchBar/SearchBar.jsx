@@ -13,4 +13,5 @@ export default function SearchBar({onSearch}) {
          <button onClick={() => {onSearch(id); setId("")}}>Agregar</button>
       </div>
    );
-}
+}  
+

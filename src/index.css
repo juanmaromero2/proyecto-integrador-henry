@@ -5,6 +5,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image:url("https://media.istockphoto.com/id/1035676256/es/foto/fondo-de-galaxia-y-estrellas.jpg?s=612x612&w=0&k=20&c=CCOStm5MJtOBnAkAcYr_qH1iqi4Zae8ScvNHDEnSDVs=");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 100%;
+  margin: 0;
 }
 
 code {
