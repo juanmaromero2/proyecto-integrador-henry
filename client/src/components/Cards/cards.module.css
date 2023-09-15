@@ -1,0 +1,12 @@
+.cardList {
+    max-width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4rem;
+    padding: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    align-content: center;
+    align-items: center;
+}
+

@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img{
+height: 20rem;
+width: 30rem;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 20em;
+    width: 20em;
+    border-radius: 15px;
+    background-color: rgb(99, 101, 101, 0.8);
+}
+
+.input{
+    margin: 10px;
+    height: 30px;
+    width: 90%;
+}
+
+.text{
+    background-color: gray;
+    font-size: x-large;
+    border: solid black;
+    border-radius: 5px;
+    color: white;
+}
+
+.btn{
+    width: 40%;
+    height: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: large;
+    background-color: gray;
+    color: white;
+    box-shadow: rgb(0, 255, 17) 0px 2px 4px 0px, rgb(0, 255, 17) 0px 2px 16px 0px;
+    cursor: pointer;
+}

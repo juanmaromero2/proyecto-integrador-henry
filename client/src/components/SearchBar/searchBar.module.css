@@ -1,0 +1,15 @@
+.input{
+    border: solid;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-size: large;
+}
+.btn{
+    border: solid 2px black;
+    border-radius: 10px;
+    font-size: large;
+    background-color: gray;
+    color: white;
+    box-shadow: rgb(0, 255, 17) 0px 2px 4px 0px, rgb(0, 255, 17) 0px 2px 16px 0px;
+    cursor: pointer;
+}

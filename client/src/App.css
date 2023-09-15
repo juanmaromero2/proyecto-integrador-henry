@@ -1,0 +1,13 @@
+*{
+   box-sizing: border-box;
+}
+.App {
+   height: 100vw;
+   text-align: center;
+   background-image:url("https://s1.1zoom.me/b5050/434/287327-Sepik_1920x1080.jpg");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center center;
+   /* width: 100vw;
+   position: absolute; */
+}

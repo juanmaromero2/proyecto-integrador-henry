@@ -1,0 +1,41 @@
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 20px;
+    font-size: small;
+    background-color:rgba(173, 255, 47, 0.5);
+}
+
+.btnContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btnFav{
+    background-color: black;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.btnClose{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+    font-size: medium;
+}
+
+.imgContainer{
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.img{
+    border-radius: 2px;
+    display: block;
+    width: 100%;
+    height: auto;
+}

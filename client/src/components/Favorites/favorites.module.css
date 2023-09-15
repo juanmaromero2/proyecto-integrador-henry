@@ -1,0 +1,21 @@
+.cardList {
+    max-width: 95vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 4rem;
+    padding: 3rem;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    align-content: center;
+    align-items: center;
+}
+
+.order{margin-right: 2rem;
+        border: solid 2px black;
+        border-radius: 10px;
+        font-size: large;
+        background-color: gray;
+        color: white;
+        box-shadow: rgb(0, 255, 17) 0px 2px 4px 0px, rgb(0, 255, 17) 0px 2px 16px 0px;
+        cursor: pointer;
+}
